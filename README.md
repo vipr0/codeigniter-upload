@@ -7,7 +7,7 @@ Clone repository to your web server folder.
 ## How to use endpoint
 
 Send POST request to `<project_folder>/upload endpoint` with file attached to 'file' key in formdata body.
-Returns responce in JSON format.
+Uploaded files will be placed in writable/uploads folder. Returns responce in JSON format.
 
 Successful responce example:
 ```
